@@ -1,6 +1,6 @@
 {
-  "name": "html-react-parser",
-  "version": "1.0.0",
+  "name": "html-parser-react",
+  "version": "1.0.1",
   "description": "the parser for html transform to react dom",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "html",
+    "react",
     "parser"
   ],
   "author": "amschan",
@@ -19,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/vkm0303/html-react-parser/issues"
   },
-  "homepage": "https://github.com/vkm0303/html-react-parser#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+  "homepage": "https://github.com/vkm0303/html-react-parser#readme"
 }

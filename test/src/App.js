@@ -3,11 +3,7 @@ import htmlstrParser from '../../lib/htmlstr-to-react';
 
 function App() {
   const Parser = htmlstrParser(
-    `<div style="weight: 10px; margin-left: 10; font-weight:700">
-      <div>123</div>
-      2334
-      <div>444</div>
-    </div>`
+    `<a href="https://github.com/vkm0303" target="_blank"><img style="width: 40px;height:40px;    border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64176534?v=4"></img></a>`
   );
   return (
     <div id='App'>
