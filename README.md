@@ -34,4 +34,4 @@ ReactDom.render(
 
 ## License
 
-<a style="font-size: 20px" href="/blob/master/LICENSE">MIT</a>
+<a style="font-size: 20px" href="/LICENSE">MIT</a>
