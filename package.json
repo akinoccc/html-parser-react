@@ -1,0 +1,26 @@
+{
+  "name": "html-react-parser",
+  "version": "1.0.0",
+  "description": "the parser for html transform to react dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkm0303/html-react-parser.git"
+  },
+  "keywords": [
+    "html",
+    "parser"
+  ],
+  "author": "amschan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkm0303/html-react-parser/issues"
+  },
+  "homepage": "https://github.com/vkm0303/html-react-parser#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
