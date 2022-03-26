@@ -16,7 +16,8 @@ npm i html-to-react-parser --save
 import ReactDOM from 'react-dom';
 import Parser from 'html-to-react-parser';
 ReactDom.render(
-  <Parser htmlstr={'<div style="font-weight: 700;">this is example</div>'} />
+  <Parser htmlstr={'<div style="font-weight: 700;">this is example</div>'} />,
+  document.getElementById('root')
 );
 ```
 
