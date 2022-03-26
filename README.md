@@ -1,3 +1,8 @@
+<img src="https://img.shields.io/npm/v/html-parser-react" />
+<img src="https://img.shields.io/github/license/vkm0303/html-parser-react"/>
+
+# <div style="font-weight: 700;text-align: center;">Documentation</div>
+
 # Background
 
 you may need to transform html string to react dom, so I develop this parser. you just need transmiting the html string which you want to parse and then you can get a react dom that you can use it as a component.
