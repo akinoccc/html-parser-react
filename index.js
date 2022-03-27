@@ -1,8 +1,8 @@
 import transformToHtmlElement from './lib/transformToHtmlElement';
-import transformToReactElement from './lib/transformToHtmlElement';
+import transformToReactElement from './lib/transformToReactElement';
 
-const Parser = ({ htmlStr }) => {
-  const htmlDom = transformToHtmlElement(htmlStr);
+const Parser = ({ htmlStr, data }) => {
+  const htmlDom = transformToHtmlElement(htmlStr, data);
   const reactDom = transformToReactElement(htmlDom);
   return reactDom;
 };
