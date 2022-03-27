@@ -1,4 +1,4 @@
-import Parser from 'html-parser-react';
+import Parser from '../../index';
 
 function Example() {
   return (
