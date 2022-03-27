@@ -1,12 +1,12 @@
 {
   "name": "html-parser-react",
-  "version": "1.0.7-0",
+  "version": "1.0.7",
   "description": "the parser for html string transform to react dom",
   "main": "npm/index.js",
   "scripts": {
     "init": "cd example && npm i && npm start",
     "start": "cd example && npm start",
-    "release": "cd package && npm publish",
+    "release": "&& npm version patch && cd package && npm version patch && npm publish",
     "version:s": "npm version prepatch -m '[prepatch]' && cd package && npm version prepatch -m '[prepatch]'",
     "version:m": "npm version prepatch -m '[preminor]' && cd package && npm version prepatch -m '[preminor]'",
     "version:b": "npm version prepatch -m '[premajor]' && cd package && npm version prepatch -m '[premajor]'"
