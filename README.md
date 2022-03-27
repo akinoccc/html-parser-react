@@ -10,16 +10,16 @@ you may need to transform html string to react dom, so I develop this parser. yo
 ## Install
 
 ```bash
-npm i html-to-react-parser --save
+npm i html-parser-react --save
 ```
 
 ## Usage
 
 ```js
 import ReactDOM from 'react-dom';
-import Parser from 'html-to-react-parser';
+import Parser from 'html-parser-react';
 ReactDom.render(
-  <Parser htmlstr={'<div style="font-weight: 700;">this is example</div>'} />,
+  <Parser htmlstr={'<h1 style="font-weight: 700;">this is a example!</h1>'} />,
   document.getElementById('root')
 );
 ```
@@ -30,7 +30,17 @@ ReactDom.render(
 
 ### Contributing
 
-`pendding`
+#### clone the project
+
+```bash
+git clone https://github.com/vkm0303/html-parser-react.git
+```
+
+#### start
+
+```bash
+
+```
 
 ## License
 
