@@ -1,5 +1,5 @@
 .vscode
-npm
+package
 
 package-lock.json
 ./example/package-lock.json

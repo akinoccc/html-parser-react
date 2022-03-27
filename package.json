@@ -6,9 +6,10 @@
   "scripts": {
     "init": "cd example && npm i && npm start",
     "start": "cd example && npm start",
-    "version:s": "npm version prepatch -m '[prepatch]' && cd npm && npm version prepatch -m '[prepatch]'",
-    "version:m": "npm version prepatch -m '[preminor]' && cd npm && npm version prepatch -m '[preminor]'",
-    "version:b": "npm version prepatch -m '[premajor]' && cd npm && npm version prepatch -m '[premajor]'"
+    "release": "cd package && npm publish",
+    "version:s": "npm version prepatch -m '[prepatch]' && cd package && npm version prepatch -m '[prepatch]'",
+    "version:m": "npm version prepatch -m '[preminor]' && cd package && npm version prepatch -m '[preminor]'",
+    "version:b": "npm version prepatch -m '[premajor]' && cd package && npm version prepatch -m '[premajor]'"
   },
   "repository": {
     "type": "git",
