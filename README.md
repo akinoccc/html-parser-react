@@ -24,23 +24,31 @@ ReactDom.render(
 );
 ```
 
-### Maintainer
+## Maintainer
 
 <a href="https://github.com/vkm0303" target="_blank"><img style="width: 40px;height:40px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64176534?v=4"></img></a>
 
-### Contributing
+## Contributing
 
-#### clone the project
+### fork
+
+fork this project to your repo.
+
+### clone the project
 
 ```bash
 git clone https://github.com/vkm0303/html-parser-react.git
 ```
 
-#### start
+### start
 
 ```bash
-
+npm init
 ```
+
+### pull request
+
+when you push your change, you can pull request on github and then I will check your code.
 
 ## License
 
