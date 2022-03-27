@@ -5,7 +5,7 @@
 export default {
   input: 'index.js',
   output: {
-    dir: 'npm',
+    dir: 'package',
     format: 'cjs',
     sourcemap: true,
     exports: 'named'
