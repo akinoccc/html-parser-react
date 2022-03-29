@@ -4,7 +4,7 @@
   "description": "the parser for html string transform to react dom",
   "main": "npm/index.js",
   "scripts": {
-    "init": "cd example && npm i && npm start",
+    "initial": "cd example && npm i && npm start",
     "start": "cd example && npm start",
     "release": "npm version patch && cd package && npm version patch && npm publish",
     "version:s": "npm version prepatch -m '[prepatch]' && cd package && npm version prepatch -m '[prepatch]'",
