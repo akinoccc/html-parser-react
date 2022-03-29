@@ -101,7 +101,7 @@ git clone https://github.com/vkm0303/html-parser-react.git
 ### start
 
 ```bash
-npm init
+npm run initial
 ```
 
 ### pull request
