@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react/cjs/react.production.min';
 import transformToHtmlElement from './lib/transformToHtmlElement';
 import transformToReactElement from './lib/transformToReactElement';
 
@@ -9,8 +10,12 @@ import transformToReactElement from './lib/transformToReactElement';
  * @return {JSX.Element[]} ReactElement[]
  */
 const Parser = ({ htmlStr, data, option }) => {
-  const htmlDom = transformToHtmlElement(htmlStr, data);
-  const reactDom = transformToReactElement(htmlDom, option);
+  const [reactDom, setReactDom] = useState(null);
+  useEffect(() => {
+    const htmlDom = transformToHtmlElement(htmlStr, data);
+    const res = transformToReactElement(htmlDom, option);
+    setReactDom(res);
+  }, [htmlStr, data]);
   return reactDom;
 };
 
