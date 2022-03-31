@@ -5,6 +5,7 @@
   "main": "npm/index.js",
   "scripts": {
     "test": "jest",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "initial": "cd example && npm i && npm start",
     "start": "cd example && npm start",
     "release": "npm version patch && cd package && npm version patch && npm publish",
@@ -39,6 +40,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-jest": "^27.5.1",
+    "coveralls": "^3.1.1",
     "react-test-renderer": "^18.0.0"
   }
 }
