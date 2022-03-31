@@ -4,6 +4,7 @@
   "description": "the parser for html string transform to react dom",
   "main": "npm/index.js",
   "scripts": {
+    "test": "jest",
     "initial": "cd example && npm i && npm start",
     "start": "cd example && npm start",
     "release": "npm version patch && cd package && npm version patch && npm publish",
@@ -27,5 +28,17 @@
   "bugs": {
     "url": "https://github.com/vkm0303/html-parser-react/issues"
   },
-  "homepage": "https://github.com/vkm0303/html-parser-react#readme"
+  "homepage": "https://github.com/vkm0303/html-parser-react#readme",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-jest": "^27.5.1",
+    "react-test-renderer": "^18.0.0"
+  }
 }

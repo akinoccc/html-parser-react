@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactParser test binding function 1`] = `
+Array [
+  <button
+    onClick={[Function]}
+  />,
+]
+`;
+
+exports[`ReactParser test html attrs 1`] = `
+Array [
+  <img
+    id="test"
+    src="null"
+  />,
+]
+`;
+
+exports[`ReactParser test mutiple html dom 1`] = `
+Array [
+  <div>
+    <text>
+      first
+    </text>
+  </div>,
+  <div>
+    <text>
+      second
+    </text>
+  </div>,
+]
+`;
+
+exports[`ReactParser test render data 1`] = `
+Array [
+  <div>
+    this is data1
+    <span>
+      this is data2
+    </span>
+  </div>,
+]
+`;
+
+exports[`ReactParser test single html dom 1`] = `
+Array [
+  <div>
+    single test
+  </div>,
+]
+`;
+
+exports[`ReactParser test style 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "color": "#ccc",
+        "fontWeight": 700,
+        "height": 5.5,
+        "marginLeft": 10,
+        "weight": 10,
+      }
+    }
+  />,
+]
+`;
+
+exports[`ReactParser transform function return null 1`] = `Array []`;
+
+exports[`ReactParser transform function return react element 1`] = `
+Array [
+  <div>
+    transform
+  </div>,
+]
+`;
+
+exports[`ReactParser transform function return undefine 1`] = `
+Array [
+  <div>
+    single test
+  </div>,
+]
+`;

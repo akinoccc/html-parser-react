@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactParser parses html string 1`] = `
+NodeList [
+  <div>
+    this is data1
+    <span>
+      this is data2
+    </span>
+  </div>,
+]
+`;
+
+exports[`ReactParser parses html string 2`] = `
+NodeList [
+  <div>
+    single test
+  </div>,
+]
+`;
