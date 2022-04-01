@@ -2,9 +2,9 @@
 package
 
 package-lock.json
-./example/package-lock.json
-
 
 node_modules
+example
+./example/package-lock.json
 ./example/node_modules
 yarn.lock
