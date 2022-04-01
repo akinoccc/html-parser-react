@@ -8,10 +8,10 @@
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "initial": "cd example && npm i && npm start",
     "start": "cd example && npm start",
-    "release": "npm version patch && cd package && npm version patch && npm publish",
-    "version:s": "npm version prepatch -m '[prepatch]' && cd package && npm version prepatch -m '[prepatch]'",
-    "version:m": "npm version preminor -m '[preminor]' && cd package && npm version preminor -m '[preminor]'",
-    "version:b": "npm version premajor -m '[premajor]' && cd package && npm version premajor -m '[premajor]'"
+    "release": "cd package && npm version patch && npm publish",
+    "version:s": "npm version patch -m '[patch]' && cd package && npm version patch -m '[patch]'",
+    "version:m": "npm version minor -m '[minor]' && cd package && npm version minor -m '[minor]'",
+    "version:b": "npm version major -m '[major]' && cd package && npm version major -m '[major]'"
   },
   "repository": {
     "type": "git",
