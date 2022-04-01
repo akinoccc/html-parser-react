@@ -8,7 +8,7 @@
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "initial": "cd example && npm i && npm start",
     "start": "cd example && npm start",
-    "release": "cd package && npm version patch && npm publish",
+    "release": "cd package && npm publish",
     "version:s": "npm version patch -m '[patch]' && cd package && npm version patch -m '[patch]'",
     "version:m": "npm version minor -m '[minor]' && cd package && npm version minor -m '[minor]'",
     "version:b": "npm version major -m '[major]' && cd package && npm version major -m '[major]'"
