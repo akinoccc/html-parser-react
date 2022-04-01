@@ -5,6 +5,7 @@
   <img style="margin-right: 10px" src="https://img.shields.io/travis/vkm0303/html-parser-react"/>
   <img style="margin-right: 10px" src="https://img.shields.io/coveralls/github/vkm0303/html-parser-react.svg"/>
   <img style="margin-right: 10px" src="https://img.shields.io/npm/dw/html-parser-react"/>
+  <img style="margin-right: 10px" src="https://img.shields.io/bundlephobia/min/html-parser-react"/>
   <img style="margin-right: 10px" src="https://img.shields.io/github/license/vkm0303/html-parser-react"/>
 </div>
 
